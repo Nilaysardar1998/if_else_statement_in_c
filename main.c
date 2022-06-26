@@ -17,6 +17,16 @@ int main() {
         printf("State level");
     }
     //Nested if-else
-    
+    if(x < y){
+        int a = 1, b = 2;
+        int result = a + b;
+        if (result == 3){
+            printf("Result = %d", result);
+        }else if (result == 4){
+            printf("Result = %d", result);
+        }
+    } else{
+        printf("X is greater then y");
+    }
     return 0;
 }
